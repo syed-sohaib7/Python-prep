@@ -33,6 +33,8 @@ def a(x): return x + 10
 
 print(a(4))
 
+print((lambda x: x**2)(5))  # defining and calling at the same time
+
 # pass - nothing happens but avoid getting error, used as a placeholder
 
 a = 33
